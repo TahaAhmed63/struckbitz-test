@@ -60,10 +60,7 @@ const handleSaveWeek = (week) => {
   setShowModal(false);
   setSelectedMeals([]); 
 };
-const handleAddToWeek = (meal) => {
-  setMealToAdd(meal);
-  setShowModal(true);
-};
+
 
 const handleDeleteMeal = (week, mealId) => {
   setSelectedMealsByWeek((prev) => ({
@@ -72,6 +69,8 @@ const handleDeleteMeal = (week, mealId) => {
   }));
 };
 console.log(meals)
+console.log(selectedMeals,"selected meals")
+console.log(selectedMealsByWeek,"selectedMealsByWeek")
   return (
     <>
 <div className="singlepageheader" >
