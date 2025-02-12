@@ -340,3 +340,22 @@ cursor: pointer;
     padding: 5px 8px;
   }
 }
+
+@media screen and (min-width: 2000px)
+{
+   
+.max-limit {
+    left: 0px !important;
+    width: 1320px !important;
+    margin: 0 auto !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.max-limits {
+    left: -12px !important;
+    width: 1320px !important;
+    margin: 0 auto !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}
