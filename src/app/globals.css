@@ -81,6 +81,7 @@ background-size: cover;
   padding: 12px 0;
   font-size: 20px;
   font-weight: 700;
+  height: 53px;
 }
 .modal.show.d-block {
   background: #00000061;
