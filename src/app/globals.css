@@ -359,3 +359,8 @@ cursor: pointer;
     padding-right: 0px !important;
 }
 }
+
+button.work-btn:disabled {
+  background-color: #9b9b9b; /* Example styling */
+  cursor: not-allowed;
+}
